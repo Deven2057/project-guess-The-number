@@ -6,7 +6,7 @@ var count=0
 
 while(n!=a){
   if(n>a){
-    a=prompt("oops enter greater number")
+    a=prompt("oops! enter greater number")
     a=Number.parseInt(a)
         count++
   }
