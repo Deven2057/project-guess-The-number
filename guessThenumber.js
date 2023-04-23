@@ -1,8 +1,9 @@
 let n
-n=Math.floor(Math.random()*100);
+n=Math.floor(Math.random()*100);              //random number generate
 let a= prompt("enter your guess:")
-a=Number.parseInt(a)
+a=Number.parseInt(a)                          //convert the string into Int
 var count=0
+
 while(n!=a){
   if(n>a){
     a=prompt("oops enter greater number")
