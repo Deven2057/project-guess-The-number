@@ -12,7 +12,7 @@ while(n!=a){
   }
 
   else{
-    a=prompt("oops!  enter smaller number ")
+    a=prompt("oops! enter smaller number ")
     a=Number.parseInt(a)
     count++
   }
